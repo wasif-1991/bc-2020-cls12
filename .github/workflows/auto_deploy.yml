@@ -49,4 +49,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deployin on Surge
-        run: surge ./build http://bc_2020_cls10.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://bc_2020_cls12.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
